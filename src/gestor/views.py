@@ -12,4 +12,4 @@ class PropiedadViewSet(viewsets.ModelViewSet):
     
     #Aqui implementamos los filtros
     filter_backends = [filters.SearchFilter]
-    search_fields = ['dirreccion', 'tipo']
+    search_fields = ['direccion', 'tipo']
